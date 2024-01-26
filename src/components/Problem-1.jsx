@@ -48,7 +48,7 @@ const Problem1 = () => {
         .sort((a, b) => {
             // sort by statuts
             const order = ['active', 'completed', 'pending', 'archive'];
-            console.log(order.indexOf(a));
+            console.log(order);
 
             const A = order.indexOf(a.status.toLowerCase());
             const B = order.indexOf(b.status.toLowerCase());
